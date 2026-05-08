@@ -132,7 +132,7 @@ python parse_gdocs_html.py Bugs.html | pbcopy
 
 ```
 Desktop/                        # wherever --out points
-├── bugs_clean.md               # clean Markdown or text file
+├── bugs_clean.md               # clean Markdown file
 └── Bugs_files/                 # copied automatically from alongside the HTML
     ├── unnamed.png
     ├── unnamed(1).png
