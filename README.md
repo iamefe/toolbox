@@ -14,7 +14,7 @@ General-purpose utility scripts. Mostly for wrangling files before feeding them 
 | Script | What it does |
 |--------|-------------|
 | [`parse_gdocs_html.py`](#parse_gdocs_htmlpy) | Converts a Google Docs HTML export to clean text or Markdown |
-| [`extract_images.py`](#extract_imagespy) | Extracts base64 images from a Google Docs Markdown export |
+| [`extract_images.py`](#extract_imagespy) | Cleans up a Google Docs Markdown export by extracting embedded base64 images as real files and rewriting the document to reference them |
 
 ---
 
