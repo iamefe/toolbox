@@ -128,6 +128,17 @@ python parse_gdocs_html.py Bugs.html | pbcopy
 # Now paste into Qwen, ChatGPT, etc.
 ```
 
+### Output structure
+
+```
+Desktop/                        # wherever --out points
+├── bugs_clean.md               # clean Markdown or text file
+└── Bugs_files/                 # copied automatically from alongside the HTML
+    ├── unnamed.png
+    ├── unnamed(1).png
+    └── ...
+```
+
 ### How it works
 
 Google Docs HTML exports contain several layers of noise:
@@ -182,6 +193,16 @@ python extract_images.py "Mobile App Brief.md" \
   --md-out ./brief_output/brief_clean.md
 # Both the markdown and images are in brief_output/
 # Image references become: ![image1](image1.png)
+```
+
+### Output structure
+
+```
+brief_output/                   # wherever --out-dir and --md-out point
+├── brief_clean.md              # rewritten Markdown with real image references
+├── image001.png
+├── image002.png
+└── ...
 ```
 
 ### How it works
