@@ -9,6 +9,17 @@ General-purpose utility scripts. Mostly for wrangling files before feeding them 
 
 ---
 
+## Folder structure
+
+```
+toolbox/
+├── extract_images.py      # Google Docs Markdown export cleaner
+├── parse_gdocs_html.py    # Google Docs HTML export converter
+└── README.md
+```
+
+---
+
 ## Scripts
 
 | Script | What it does |
