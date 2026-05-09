@@ -1,7 +1,7 @@
 # 🧰 toolbox
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue?style=flat-square&logo=python&logoColor=white)
-![Scripts](https://img.shields.io/badge/scripts-3-brightgreen?style=flat-square)
+![Scripts](https://img.shields.io/badge/scripts-2-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-orange?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blueviolet?style=flat-square)
 
@@ -13,9 +13,6 @@ General-purpose utility scripts. Mostly for wrangling files before feeding them 
 
 ```
 toolbox/
-├── kooc/                   # Kaggle OpenCode launcher (bash)
-│   ├── kooc
-│   └── README.md
 ├── extract_images.py      # Google Docs Markdown export cleaner
 ├── parse_gdocs_html.py    # Google Docs HTML export converter
 └── README.md
@@ -27,7 +24,6 @@ toolbox/
 
 | Script | What it does |
 |--------|-------------|
-| [`kooc/kooc`](kooc/README.md) | Interactive launcher: pick a model from a remote Kaggle Ollama instance and open it in OpenCode |
 | [`parse_gdocs_html.py`](#parse_gdocs_htmlpy) | Converts a Google Docs HTML export to clean text or Markdown |
 | [`extract_images.py`](#extract_imagespy) | Cleans up a Google Docs Markdown export by extracting embedded base64 images as real files and rewriting the document to reference them |
 
